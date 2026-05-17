@@ -1,0 +1,32 @@
+# Environment
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# Django
+db.sqlite3
+media/
+tmp/
+staticfiles/
+
+# Model (keep model.keras in repo if tracked; ignore large extras)
+*.h5
+*.weights
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
